@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_gray">#F0F0F0</color>
+    <color name="black">#000000</color>
+    <color name="line">#E0E0E0</color>
+
+
+    <color name="transparent">#00ffffff</color>
+    <color name="capture_biankuang">#2c82fd</color>
+    <color name="viewfinder_mask">#000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_laser">#fe5600</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="common_text">#333333</color>
+
+
+    <color name="blues">#7eb2fc</color>
+
+
+    <color name="black_text">#000000</color>
+    <color name="grey_text">#2b2b2b</color>
+
+    <color name="backgroundColor">#E8E8E0</color>
+    <color name="backgroundColorPress">#DBDBD3</color>
+    <color name="red">#FF3B00</color>
+    <color name="red_press">#990000</color>
+    <color name="dark_gray">#4C535B</color>
+    <color name="dark_gray_press">#ff7e8a97</color>
+
+    /////////////////////////////////////
+
+    <!-- QRCode scanner color begin -->
+
+    <color name="viewfinder_frame">#90FFFFFF</color>
+    <color name="result_point_color">#C0FFFF00</color>
+    <color name="laser_color">#0F0</color>
+    <color name="corner_color">#00FF00</color>
+
+
+
+
+
+
+</resources>

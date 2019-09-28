@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flt_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent"
+        >
+        <SurfaceView
+            android:id="@+id/preview_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="将二维码放入框内，即可自动扫描"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/ckbLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/flashlight_selector_layout"
+            android:button="@null"
+            />
+        <TextView
+            android:id="@+id/txt_open_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:text="打开手电筒"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/txt_close_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:text="关闭手电筒"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="扫描二维码"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:layout_centerInParent="true"
+                android:textColor="#fff"
+                android:layout_centerVertical="true"
+                />
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/img_cap_return"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_return_bar_normal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                />
+
+        </RelativeLayout>
+        <com.mcz.temperarure_humidity_appproject.app.ui.zxing.capture.ViewfinderView
+            android:id="@+id/viewfinder_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            />
+    </FrameLayout>
+
+
+</FrameLayout>

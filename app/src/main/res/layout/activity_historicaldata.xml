@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    tools:context="com.mcz.temperarure_humidity_appproject.app.HistoricaldataActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rela_id_popup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_top_bg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="历史数据"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+            <ImageView
+                android:id="@+id/img_histor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/btn_black_nor"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/main_relative_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="暂无数据"
+                android:textSize="25sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.mcz.temperarure_humidity_appproject.app.view.view.PullToRefreshListView
+                android:id="@+id/main_pull_refresh_his"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:cacheColorHint="#00000000"
+                android:descendantFocusability="blocksDescendants"
+                android:divider="@null"
+                android:drawingCacheQuality="high"
+                android:fadingEdge="none"
+                android:fastScrollEnabled="false"
+                android:listSelector="@null"
+                android:overScrollFooter="@null"
+                android:scrollbars="none"
+                android:scrollingCache="true"
+                ptr:ptrRefreshableViewBackground="@null">
+
+            </com.mcz.temperarure_humidity_appproject.app.view.view.PullToRefreshListView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

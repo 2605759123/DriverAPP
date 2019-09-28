@@ -1,0 +1,32 @@
+<resources>
+    <!--<string name="app_name">HWAPPproject</string>-->
+
+    <string name="app_name">驾驶伙伴</string>
+    <string name="base_loading">Loading&#8230;</string>
+
+    <string name="open_camera_fail">打开相机失败，请选择手动输入添加设备</string>
+    <string name="username">账号</string>
+    <string name="password">密码</string>
+    <string name="LogIn">登录</string>
+    <string name="signIN">注册</string>
+    <string name="forgetPW">忘记密码</string>
+    <string name="RealTimeTemperature">刪除设备</string>
+    <string name="RealTimeBloodPressure">Plus</string>
+    <string name="RealTimeHeartRate">实时心率</string>
+    <string name="History">历史记录</string>
+    <string name="loading">加载中…</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_more">下拉加载更多...</string>
+    <string name="xlistview_header_hint_loading">正在加载，请稍候...</string>
+    <string name="xlistview_header_last_time">最近更新</string>
+    <string name="xlistview_footer_hint_normal">上拉加载更多...</string>
+    <string name="xlistview_footer_hint_no_more_device">无更多信息</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_footer_no_more">无更多</string>
+    <string name="xlistview_footer_no_more_msg">无更多消息</string>
+    <string name="no_more_leave_tip">最多记录100条消息，每条消息最多可保存7天</string>
+    <string name="title_activity_my_main2">MyMain2Activity</string>
+    <string name="title_activity_my_main">MyMainActivity</string>
+
+</resources>

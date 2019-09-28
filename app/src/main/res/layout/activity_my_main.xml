@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rela_id_popup"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="?attr/colorPrimary">
+        <Button
+            android:id="@+id/person"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_person_outline_black_24dp"/>
+        <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/person"
+            android:text="  实时数据"
+            android:textColor="#fff"
+            android:textSize="22sp" />
+            -->
+        <TextView
+            android:id="@+id/makedatatext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="收取中..."
+            android:textColor="#fff"
+            android:textSize="22sp"/>
+
+        <Button
+            android:id="@+id/img_choose"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/add" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/mymain_shuaxin"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_shuaxin"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"/>
+        <include layout="@layout/content_my_main" />
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
