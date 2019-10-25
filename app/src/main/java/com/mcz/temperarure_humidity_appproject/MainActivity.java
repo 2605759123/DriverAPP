@@ -52,6 +52,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+//Main 主函数
 //implements AdapterView.OnItemClickListener
 public class MainActivity extends AppCompatActivity {
 
