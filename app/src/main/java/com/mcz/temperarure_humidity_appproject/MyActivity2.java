@@ -223,7 +223,7 @@ public class MyActivity2 extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-                    Log.i("pppppppppppppppppp",token);
+//                     Log.i("pppppppppppppppppp",token);
                     String add_url = Config.all_url + "/iocm/app/dm/v1.3.0/devices?appId=" + login_appid
                             + "&pageNo=" + "0" + "&pageSize=" + "5";
                     Log.i("bbbbbbbbb",add_url);
@@ -296,7 +296,7 @@ public class MyActivity2 extends AppCompatActivity {
 
             }
         }).start();
-        return mlist;
+        return mlist;//return
     }
     private void Delete_shebei(){
         new Thread(new Runnable() {
